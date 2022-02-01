@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
+Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2022.02.01 às 09:37:01 AM BRT 
+
+  -->
+      
+    <jaxb:bindings if-exists="true" scd="x-schema::">
+            
+        <jaxb:schemaBindings map="false">
+                  
+            <jaxb:package name="guru.springframework.domain"/>
+                
+        </jaxb:schemaBindings>
+            
+        <jaxb:bindings if-exists="true" scd="~UserCommand">
+                  
+            <jaxb:class ref="guru.springframework.domain.UserCommand"/>
+                
+        </jaxb:bindings>
+          
+    </jaxb:bindings>
+    
+</jaxb:bindings>
